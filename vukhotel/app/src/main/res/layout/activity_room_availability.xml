@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="vineet.kalpnil.uddhav.com.vukhotel.RoomAvailability">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:id="@+id/imageButton1"
+        android:background="@color/darkblue"
+        android:text="Family Suite"
+        android:textColor="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="45dp"
+        android:onClick="bookroom1"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="No. of Rooms: 30"
+            android:textSize="30dp"
+            android:background="@color/lightblue"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:textSize="30dp"
+            android:background="@color/lightblue1"
+            android:text="Free: 21"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:id="@+id/imageButton2"
+        android:background="@color/darkblue"
+        android:text="Honeymoon Suite"
+        android:textColor="@color/white"
+        android:gravity="center_vertical|center_horizontal"
+        android:textSize="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="bookroom2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="No. of Rooms: 30"
+            android:textSize="30dp"
+            android:background="@color/lightblue"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Free: 20"
+            android:textSize="30dp"
+            android:background="@color/lightblue1"
+            android:layout_weight="1"
+            android:gravity="center"
+         />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@color/darkblue"
+        android:text="Business Suite"
+        android:textColor="@color/white"
+        android:textSize="45dp"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:onClick="bookroom3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="No. of Rooms: 20"
+            android:textSize="30dp"
+            android:background="@color/lightblue"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Free: 5"
+            android:textSize="30dp"
+            android:background="@color/lightblue1"
+            android:layout_weight="1"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</LinearLayout>
